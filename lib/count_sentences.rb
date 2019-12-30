@@ -27,6 +27,7 @@ end
 end
 
   def count_sentences
-    String.split(".", "?", "!", "...")
+  #  String.split(".", "?", "!", "...")
+  scan(/[.?!]+(?=\s/\z)/).size
   end
 end
