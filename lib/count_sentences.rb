@@ -27,6 +27,6 @@ end
 end
 
   def count_sentences
-
+    string.split(".", "?", "!", "...")
   end
 end
