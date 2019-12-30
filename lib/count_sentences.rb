@@ -28,6 +28,6 @@ end
 
   def count_sentences
   #  String.split(".", "?", "!", "...")
-  scan(/[.?!]+(?=\s/\z)/)).size
+  scan(/[.?!]+(?=\s/)\z)/).size
   end
 end
